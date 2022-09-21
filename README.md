@@ -38,6 +38,8 @@ For this project, I used the following technologies:
 
 ## Working App
 
+![Alt Text](https://im2.ezgif.com/tmp/ezgif-2-77ee6ba118.gif)
+
 ## Credits
 
 ## Licence
