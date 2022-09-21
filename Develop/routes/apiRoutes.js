@@ -2,13 +2,14 @@
 
 const fs = require("fs");
 const router = require("express").Router();
-const db = require("./db/db.json"); // path?
+const db = require("../db.json"); // path?
 const uniqueId = require("uniqueId");
 
 // GET API notes
 
-router.get("/api/notes", (req, res) => {
-  res.sendFile(path.join(__dirname, "./db/db.json"));
+
+app.get("/api/notes", (req, res) => {
+  res.sendFile(path.join(__dirname, "../db.json"));
 });
 
 // POST API notes
@@ -20,7 +21,7 @@ app.post("/api/notes", function (req, res) {
   newNote.id = uniqueId;
   data.push(newNote);
 
-  db = fs.writeFileSync("./db/db.json", JSON.stringify(data), function (err) {
+  db = fs.writeFileSync("../db.json", JSON.stringify(data), function (err) {
     if (err) throw err;
   });
 
