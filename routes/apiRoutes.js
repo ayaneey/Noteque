@@ -7,13 +7,13 @@ const db = require("../db/db.json"); // path?
 
 // GET API notes
 
-app.get("/api/notes", (req, res) => {
+app.get("/notes", (req, res) => {
   res.sendFile(path.join(__dirname, "../db.json"));
 });
 
 // POST API notes
 
-app.post("/api/notes", function (req, res) {
+app.post("/notes", function (req, res) {
   uniqueId = data.length.toString();
   let newNote = req.body;
   console.log(uniqueId);
@@ -29,7 +29,7 @@ app.post("/api/notes", function (req, res) {
 
 // Creating a DELETE function
 
-app.delete("/api/notes/:id", (req, res) => {
+app.delete("/notes/:id", (req, res) => {
   const { id } = req.params;
 
   const deleteNote = notes.findIndex((note) => note.id == id);
