@@ -38,7 +38,7 @@ For this project, I used the following technologies:
 
 ## Working App
 
-![Alt Text](https://im2.ezgif.com/tmp/ezgif-2-77ee6ba118.gif)
+![Alt Text](https://im2.ezgif.com/tmp/ezgif-2-3b1beefc14.gif)
 
 ## Credits
 
