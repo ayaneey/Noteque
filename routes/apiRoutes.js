@@ -7,7 +7,6 @@ const db = require("../db/db.json"); // path?
 
 // GET API notes
 
-
 app.get("/api/notes", (req, res) => {
   res.sendFile(path.join(__dirname, "../db.json"));
 });
