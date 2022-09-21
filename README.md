@@ -5,6 +5,7 @@ Noteque is an application that allows the user to write, save and delete notes. 
 ## Table of Contents
 
 - [UserStory](#UserStory)
+- [Description](#Description)
 - [Installation](#Installation)
 - [Credits](#Credits)
 - [Technology](#Technology)
@@ -12,6 +13,14 @@ Noteque is an application that allows the user to write, save and delete notes. 
 - [Github](#Github)
 - [Email](#Email)
 
+
+## UserStory
+
+```
+AS A small business owner
+I WANT to be able to write and save notes
+SO THAT I can organize my thoughts and keep track of tasks I need to complete
+```
 
 ## Description
 
