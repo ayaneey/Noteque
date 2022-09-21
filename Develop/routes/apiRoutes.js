@@ -1,25 +1,31 @@
-// Dependencies 
+// Dependencies
 
 const fs = require("fs");
 const router = require("express").Router();
-const db = require("../db/db.json"); // path?
-const uniqid = require("uniqid");
+const db = require("./db/db.json"); // path?
+const uniqueId = require("uniqueId");
 
 // GET API notes
 
 router.get("/api/notes", (req, res) => {
-  res.sendFile(path.join(__dirname, "../db/db.json"));
+  res.sendFile(path.join(__dirname, "./db/db.json"));
 });
-
 
 // POST API notes
 
-router.post("/api/notes", (req, res) => {
-  req.body.id = createUniqueID();
-  const note = createNewNote(req.body, note);
-  res.json(note);
-});
+app.post("/api/notes", function (req, res) {
+  uniqueId = data.length.toString();
+  let newNote = req.body;
+  console.log(uniqueId);
+  newNote.id = uniqueId;
+  data.push(newNote);
 
+  db = fs.writeFileSync("./db/db.json", JSON.stringify(data), function (err) {
+    if (err) throw err;
+  });
+
+  res.json(data);
+});
 
 // Creating a DELETE function
 
@@ -31,3 +37,5 @@ app.delete("/api/notes/:id", (req, res) => {
   notes.splice(deleteNote, 1);
   return res.send();
 });
+
+module.exports = router;
