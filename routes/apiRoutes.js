@@ -1,9 +1,9 @@
 // Dependencies
-
+const express = require("express");
+const app = express();
 const fs = require("fs");
 const router = require("express").Router();
-const db = require("../db.json"); // path?
-const uniqueId = require("uniqueId");
+const db = require("../db/db.json"); // path?
 
 // GET API notes
 
