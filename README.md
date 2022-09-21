@@ -42,8 +42,17 @@ For this project, I used the following technologies:
 
 ## Credits
 
+With the help of: University of Birmingham 🎓
+
 ## Licence
+
+License: MIT
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Github
 
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) [ayaneey](https://github.com/ayaneey)
+
 ## Email
+
+You can contact me at [Ayan Ahmed](mailto:ayanahmed0210@gmail.com)
