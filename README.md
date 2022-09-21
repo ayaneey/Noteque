@@ -36,6 +36,8 @@ For this project, I used the following technologies:
 
 ## Deployed App
 
+[Click here for Deployed App](https://stark-crag-18149.herokuapp.com/)
+
 ## Working App
 
 ![Alt Text](https://im2.ezgif.com/tmp/ezgif-2-3b1beefc14.gif)
