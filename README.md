@@ -36,7 +36,7 @@ For this project, I used the following technologies:
 
 ## Deployed App
 
-![DeployedApp](https://stark-crag-18149.herokuapp.com/)
+[DeployedApp](https://stark-crag-18149.herokuapp.com/)
 
 ## Working App
 
